@@ -1,4 +1,4 @@
-# Approfondimento Tecnico sulle Reti Mesh  
+# Approfondimento sulle Reti Mesh  
 
 ## Introduzione  
 Le **reti mesh** sono infrastrutture di rete in cui ogni nodo può trasmettere e ricevere dati, creando una topologia decentralizzata (priva di un nodo centrale).  
@@ -6,7 +6,7 @@ Utilizzate in ambiti wireless e wired, permettono comunicazioni robuste e dinami
 
 ---
 
-## Topologie delle Reti Mesh  
+## Topologie delle Reti  
 Le reti mesh possono essere strutturate in due principali configurazioni:  
 
 ### **Full Mesh**
