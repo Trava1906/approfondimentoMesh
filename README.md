@@ -45,12 +45,12 @@ Alcuni protocolli comuni:
 
 ---
 
-## 🔹 Implementazione di una Rete Mesh Wi-Fi  
-### 📍 **Dispositivi Necessari**
+## Implementazione di una Rete Mesh Wi-Fi  
+###  **Dispositivi Necessari**
 - **Access Point Mesh** compatibili (es. Google Nest, TP-Link Deco, Ubiquiti AmpliFi).  
 - **Controller Mesh** (opzionale) per gestione centralizzata.  
 
-### ⚙ **Configurazione Base**
+### **Configurazione Base**
 1. **Configurare un nodo principale** collegato al router via Ethernet.  
 2. **Abilitare il protocollo mesh** (IEEE 802.11s per Wi-Fi Mesh).  
 3. **Aggiungere nodi secondari** che si connettono in automatico.  
@@ -58,34 +58,34 @@ Alcuni protocolli comuni:
 
 ---
 
-## 🔹 Vantaggi e Svantaggi Tecnici  
-### ✅ **Vantaggi**
-✔ **Alta Scalabilità** – Aggiungere nodi aumenta la copertura senza cablaggi aggiuntivi.  
-✔ **Tolleranza ai guasti** – Se un nodo si guasta, il traffico viene reindirizzato automaticamente.  
-✔ **Load Balancing** – I protocolli mesh distribuiscono il carico dinamicamente.  
+## Vantaggi e Svantaggi Tecnici  
+### **Vantaggi**
+ **Alta Scalabilità** – Aggiungere nodi aumenta la copertura senza cablaggi aggiuntivi.  
+ **Tolleranza ai guasti** – Se un nodo si guasta, il traffico viene reindirizzato automaticamente.  
+ **Load Balancing** – I protocolli mesh distribuiscono il carico dinamicamente.  
 
-### ❌ **Svantaggi**
-❌ **Overhead di Routing** – Nelle reti dense, la gestione delle tabelle di instradamento può causare latenza.  
-❌ **Interferenza e Congestione** – Troppi nodi wireless possono degradare le prestazioni.  
-❌ **Consumo Energetico Elevato** – I nodi devono essere sempre attivi per il routing.  
-
----
-
-## 🔹 Applicazioni delle Reti Mesh  
-🔹 **Reti IoT (Internet of Things)** – Zigbee, Z-Wave e LoRaWAN usano mesh per connettere sensori in ambienti industriali.  
-🔹 **Wireless Community Networks** – Progetti come **Freifunk** e **Guifi.net** usano mesh per reti cittadine autogestite.  
-🔹 **Comunicazioni d'emergenza** – Reti mesh sono impiegate in scenari di emergenza per garantire connettività in assenza di infrastrutture fisse.  
-🔹 **Reti Mesh Militari** – US Army e NATO utilizzano protocolli mesh per comunicazioni sicure sul campo.  
+### **Svantaggi**
+ **Overhead di Routing** – Nelle reti dense, la gestione delle tabelle di instradamento può causare latenza.  
+ **Interferenza e Congestione** – Troppi nodi wireless possono degradare le prestazioni.  
+ **Consumo Energetico Elevato** – I nodi devono essere sempre attivi per il routing.  
 
 ---
 
-## 🔹 Conclusione  
+## Applicazioni delle Reti Mesh  
+ **Reti IoT (Internet of Things)** – Zigbee, Z-Wave e LoRaWAN usano mesh per connettere sensori in ambienti industriali.  
+ **Wireless Community Networks** – Progetti come **Freifunk** e **Guifi.net** usano mesh per reti cittadine autogestite.  
+ **Comunicazioni d'emergenza** – Reti mesh sono impiegate in scenari di emergenza per garantire connettività in assenza di infrastrutture fisse.  
+ **Reti Mesh Militari** – US Army e NATO utilizzano protocolli mesh per comunicazioni sicure sul campo.  
+
+---
+
+## Conclusione  
 Le reti mesh rappresentano una soluzione avanzata per ambienti con esigenze di alta affidabilità e copertura estesa.  
 Tuttavia, per garantire prestazioni ottimali, è necessario scegliere il giusto protocollo di routing e ottimizzare la gestione della rete per ridurre overhead e interferenze.  
 
 ---
 
-## 🔹 Risorse Utili  
-📖 **[IEEE 802.11s Standard](https://standards.ieee.org/standard/802_11s-2011.html)**  
-📖 **[BATMAN Protocol](https://www.open-mesh.org/projects/open-mesh/wiki)**  
-📖 **[AODV Routing](https://tools.ietf.org/html/rfc3561)**  
+## Risorse Utili  
+ **[IEEE 802.11s Standard](https://standards.ieee.org/standard/802_11s-2011.html)**  
+ **[BATMAN Protocol](https://www.open-mesh.org/projects/open-mesh/wiki)**  
+ **[AODV Routing](https://tools.ietf.org/html/rfc3561)**  
