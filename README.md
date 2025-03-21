@@ -62,26 +62,26 @@ Alcuni protocolli comuni:
 ### **Vantaggi**
  **Alta Scalabilità** – Aggiungere nodi aumenta la copertura senza cablaggi aggiuntivi.  
  **Tolleranza ai guasti** – Se un nodo si guasta, il traffico viene reindirizzato automaticamente.  
- **Load Balancing** – I protocolli mesh distribuiscono il carico dinamicamente.  
+ **Load Balancing** – I protocolli mesh distribuiscono il carico dinamicamente e in maniera automatica.  
 
 ### **Svantaggi**
- **Overhead di Routing** – Nelle reti dense, la gestione delle tabelle di instradamento può causare latenza.  
- **Interferenza e Congestione** – Troppi nodi wireless possono degradare le prestazioni.  
+ **Overhead di Routing** – Nelle reti con tanti dispositivi, la gestione delle tabelle di instradamento può causare interferenze.  
+ **Interferenza e Congestione** – Troppi nodi wireless possono causare interferenze.  
  **Consumo Energetico Elevato** – I nodi devono essere sempre attivi per il routing.  
 
 ---
 
 ## Applicazioni delle Reti Mesh  
  **Reti IoT (Internet of Things)** – Zigbee, Z-Wave e LoRaWAN usano mesh per connettere sensori in ambienti industriali.  
- **Wireless Community Networks** – Progetti come **Freifunk** e **Guifi.net** usano mesh per reti cittadine autogestite.  
- **Comunicazioni d'emergenza** – Reti mesh sono impiegate in scenari di emergenza per garantire connettività in assenza di infrastrutture fisse.  
- **Reti Mesh Militari** – US Army e NATO utilizzano protocolli mesh per comunicazioni sicure sul campo.  
+ **Wireless Community Networks** – Progetti come **Freifunk** e **Guifi.net** usano mesh per reti cittadine.  
+ **Comunicazioni d'emergenza** – Reti mesh sono impiegate in scenari di emergenza per garantire connettività in assenza di strutture fisse.  
+ **Reti Mesh Militari** – US Army e NATO utilizzano protocolli mesh per comunicazioni in modo sicuro sul campo.  
 
 ---
 
 ## Conclusione  
-Le reti mesh rappresentano una soluzione avanzata per ambienti con esigenze di alta affidabilità e copertura estesa.  
-Tuttavia, per garantire prestazioni ottimali, è necessario scegliere il giusto protocollo di routing e ottimizzare la gestione della rete per ridurre overhead e interferenze.  
+Le reti mesh sono una soluzione per ambienti he hanno bisogno di alta affidabilità e copertura estesa.  
+Tuttavia, per garantire prestazioni ottime, è necessario scegliere il giusto protocollo di routing e ottimizzare la gestione della rete per ridurre interferenze.  
 
 ---
 
