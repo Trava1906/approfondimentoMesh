@@ -1,5 +1,3 @@
-# approfondimentoMesh
-
 # Approfondimento Tecnico sulle Reti Mesh  
 
 ## Introduzione  
