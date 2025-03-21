@@ -1,45 +1,45 @@
 # approfondimentoMesh
 
-# 📡 Approfondimento Tecnico sulle Reti Mesh  
+# Approfondimento Tecnico sulle Reti Mesh  
 
-## 🔹 Introduzione  
-Le **reti mesh** sono infrastrutture di rete in cui ogni nodo può trasmettere dati e fungere da ripetitore per gli altri, creando una topologia decentralizzata e fault-tolerant.  
-Utilizzate in ambiti wireless (Wi-Fi Mesh, LoRa, Zigbee) e wired, permettono comunicazioni robuste e dinamiche senza un punto centrale di guasto.  
+## Introduzione  
+Le **reti mesh** sono infrastrutture di rete in cui ogni nodo può trasmettere e ricevere dati, creando una topologia decentralizzata (priva di un nodo centrale).  
+Utilizzate in ambiti wireless e wired, permettono comunicazioni robuste e dinamiche senza un punto centrale di guasto.  
 
 ---
 
-## 🔹 Topologie delle Reti Mesh  
+## Topologie delle Reti Mesh  
 Le reti mesh possono essere strutturate in due principali configurazioni:  
 
-### 🔗 **Full Mesh (Maglia Completa)**
+### **Full Mesh**
 - Ogni nodo è direttamente connesso a tutti gli altri.  
 - **Vantaggi**: Massima ridondanza, tolleranza ai guasti elevata.  
 - **Svantaggi**: Costo elevato, gestione complessa, overhead di routing.  
 
-### 🔗 **Partial Mesh (Maglia Parziale)**
-- Solo alcuni nodi sono connessi direttamente, gli altri si affidano a percorsi multipli.  
+### **Partial Mesh**
+- Solo alcuni nodi sono connessi direttamente, gli altri si affidano a percorsi alternativi.  
 - **Vantaggi**: Bilanciamento tra ridondanza e costo.  
 - **Svantaggi**: Minor tolleranza ai guasti rispetto alla full mesh.  
 
 ---
 
-## 🔹 Protocollo di Comunicazione nelle Reti Mesh  
+## Protocollo di Comunicazione nelle Reti Mesh  
 I protocolli di routing in una rete mesh devono gestire instradamento dinamico, tolleranza ai guasti e bilanciamento del carico.  
 Alcuni protocolli comuni:  
 
-### 📶 **Routing Proattivo (Table-Driven)**
+### **Routing Proattivo (Table-Driven)**
 - Ogni nodo mantiene una tabella di routing costantemente aggiornata.  
 - **Esempi**:  
   - **OLSR (Optimized Link State Routing)** – Basato su shortest path, utilizzato in reti MANET.  
   - **BATMAN (Better Approach to Mobile Adhoc Networking)** – Sviluppato per reti wireless distribuite.  
 
-### 📡 **Routing Reattivo (On-Demand)**
+### **Routing Reattivo (On-Demand)**
 - Le rotte vengono calcolate solo quando necessario per ridurre overhead.  
 - **Esempi**:  
   - **AODV (Ad hoc On-Demand Distance Vector)** – Costruisce percorsi solo quando richiesti.  
   - **DSR (Dynamic Source Routing)** – Il pacchetto contiene l'intero percorso fino alla destinazione.  
 
-### 🔁 **Routing Ibrido**
+### **Routing Ibrido**
 - Combinazione di protocolli proattivi e reattivi per ottimizzare prestazioni.  
 - **Esempio**: **HSRP (Hybrid Wireless Mesh Protocol)**  
 
